@@ -14,7 +14,7 @@ export const generateImage = async (req, res) => {
     }
 
     const response = await axios.post(
-      "https://router.huggingface.co/hf-inference/models/black-forest-labs/FLUX.1-schnell",
+      "https://router.huggingface.co/hf-inference/models/stabilityai/stable-diffusion-xl-base-1.0",
       { inputs: prompt },
       {
         headers: {
